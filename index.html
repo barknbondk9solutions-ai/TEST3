@@ -52,14 +52,8 @@
   </nav>
 </header>
 
-<!-- =======================
-     BANNER CONTAINER
-======================= -->
-<div id="banner-container"></div>
 
-<!-- =======================
-     PAGE CONTENT
-======================= -->
+<div id="banner-container"></div>
 <main id="page-content">
 
   <!-- ====== Main Service Widget ====== -->
@@ -93,18 +87,18 @@
         <input type="text" id="zipInput" placeholder="Enter ZIP code" />
         <button onclick="checkCoverage()">Check Coverage</button>
         <p id="result"></p>
-      </div> <!-- close .location-text -->
+      </div> 
 
       <!-- ====== Map Display ====== -->
       <div class="location-map">
         <div id="map"></div>
-      </div> <!-- close .location-map -->
-    </div> <!-- close #location-section -->
+      </div> 
+    </div> 
 
     <!-- TidyCal Embed -->
     <div class="tidycal-embed" data-path="barknbondk9solutions/15-minute-meeting-m825nx2"></div>
     <script src="https://asset-tidycal.b-cdn.net/js/embed.js" async></script>
-  </div> <!-- close #service-widget -->
+  </div> 
 
 </main>
 
@@ -125,14 +119,12 @@
   </div>
 </footer>
 
-<!-- =======================
-     SCRIPTS
-======================= -->
+
 <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
 <script src="script.js"></script>
 <script src="banner.js"></script>
 <script>
-  // Set current year dynamically
+  
   document.getElementById('current-year').textContent = new Date().getFullYear();
 </script>
 
